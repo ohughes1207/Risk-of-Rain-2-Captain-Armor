@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Captain's Coat" identifier="captainscoat" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" scale="0.11" description="Protective captain's coat. Comes with pockets to keep your ammo close and your pipe closer." allowdroppingonswapwith="clothing" impactsoundtag="impact_soft">
+    <PreferredContainer primary="crewcab" />
+    <Price baseprice="800">
+      <Price storeidentifier="merchantoutpost" sold="false" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" sold="false" />
+      <Price storeidentifier="merchantresearch" sold="false" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.15" minavailable="1" />
+      <Price storeidentifier="merchantmine" sold="false" />
+    </Price>
+    <Deconstruct time="15">
+      <Item identifier="organicfiber" />
+      <Item identifier="ballisticfiber" />
+      <Item identifier="titaniumaluminiumalloy" />
+    </Deconstruct>
+    <InventoryIcon name="RoR Captain's Coat Icon" texture="%ModDir%/Content/Items/RoR Captain Armor/captain_coat_icon.png" sourcerect="35,14,605,241" origin="0.5,0.5" />
+    <Sprite name="RoR Captain's Coat" texture="%ModDir%/Content/Items/RoR Captain Armor/captain_coat_icon.png" sourcerect="35,14,605,241" depth="0.6" origin="0.5,0.5" scale="0.5" />
+    <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="RoR Captain's Coat Torso" texture="%ModDir%/Content/Items/RoR Captain Armor/captain_coat.png" limb="Torso" hidelimb="true" hidewearablesoftype="Bag" inherittexturescale="true" origin="0.6, 0.65" sourcerect="388, 19, 241, 388" scale="0.27" />
+      <sprite name="RoR Captain's Coat Right Hand" texture="%ModDir%/Content/Items/RoR Captain Armor/captain_coat.png" limb="RightHand" hidelimb="true" inherittexturescale="true" origin="0.5, 0.35" sourcerect="727, 692, 192, 221" scale="0.15" />
+      <sprite name="RoR Captain's Coat Left Hand" texture="%ModDir%/Content/Items/RoR Captain Armor/captain_coat.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" origin="0.5, 0.45" sourcerect="1016, 693, 192, 221" scale="0.15" />
+      <sprite name="RoR Captain's Coat Right Lower Arm" texture="%ModDir%/Content/Items/RoR Captain Armor/captain_coat.png" limb="RightArm" hidelimb="true" inherittexturescale="true" origin="0.55, 0.55" sourcerect="734, 13, 164, 312" scale="0.32" />
+      <sprite name="RoR Captain's Coat Left Lower Arm" texture="%ModDir%/Content/Items/RoR Captain Armor/captain_coat.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" origin="0.55, 0.55" sourcerect="993, 20, 164, 312" scale="0.32" />
+      <sprite name="RoR Captain's Coat Right Upper Arm" texture="%ModDir%/Content/Items/RoR Captain Armor/captain_coat.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" origin="0.8, 0.65" sourcerect="730, 365, 102, 275" scale="0.3" />
+      <sprite name="RoR Captain's Coat Left Upper Arm" texture="%ModDir%/Content/Items/RoR Captain Armor/captain_coat.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" origin="0.65, 0.65" sourcerect="1010, 373, 102, 275" scale="0.3" />
+      <sprite name="RoR Captain's Coat Back" texture="%ModDir%/Content/Items/RoR Captain Armor/captain_coat.png" limb="Torso" hidelimb="true" inherittexturescale="true" origin="0.6, 0.0" sourcerect="364, 461, 138, 189" scale="0.8" />
+      <sprite name="RoR Captain's Coat Waist" texture="%ModDir%/Content/Items/RoR Captain Armor/captain_coat.png" limb="Waist" hidelimb="true" inherittexturescale="true" origin="0.73, 0.1" sourcerect="352, 784, 181, 164" scale="0.35" />
+      <sprite name="RoR Captain's Coat Right Thigh" texture="%ModDir%/Content/Items/RoR Captain Armor/captain_coat.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" origin="0.65, 0.35" sourcerect="27, 21, 108, 204" scale="0.45" />
+      <sprite name="RoR Captain's Coat Left Thigh" texture="%ModDir%/Content/Items/RoR Captain Armor/captain_coat.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" origin="0.65, 0.35" sourcerect="203, 20, 108, 204" scale="0.45" />
+      <sprite name="RoR Captain's Coat Right Leg" texture="%ModDir%/Content/Items/RoR Captain Armor/captain_coat.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" origin="0.3, 0.4" sourcerect="57, 276, 108, 219" scale="0.43" />
+      <sprite name="RoR Captain's Coat Left Leg" texture="%ModDir%/Content/Items/RoR Captain Armor/captain_coat.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" origin="0.3, 0.4" sourcerect="222, 274, 108, 219" scale="0.43" />
+      <sprite name="RoR Captain's Coat Left Shoe" texture="%ModDir%/Content/Items/RoR Captain Armor/captain_coat.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" origin="0.47, 0.42" sourcerect="83, 730, 142, 70" scale="0.4" />
+      <sprite name="RoR Captain's Coat Right Shoe" texture="%ModDir%/Content/Items/RoR Captain Armor/captain_coat.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" origin="0.47, 0.42" sourcerect="86, 602, 142, 70" scale="0.4" />
+      <damagemodifier afflictionidentifiers="lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.85" />
+      <damagemodifier afflictionidentifiers="blunttrauma" armorsector="0.0,360.0" damagemultiplier="0.95" />
+      <SkillModifier skillidentifier="weapons" skillvalue="5" />
+    </Wearable>
+    <ItemContainer capacity="2">
+      <Containable items="smallitem" excludeditems="toolbelt,toolbox,bandolier" />
+    </ItemContainer>
+  </Item>
+  <Item name="Captain's Radio Helmet" identifier="captainsradiohelmet" scale="0.18" category="Diving,Equipment" Tags="smallitem,diving,lightdiving, mobileradio" cargocontaineridentifier="metalcrate" description="Provides some protection and comes with a built-in diving mask. Allows radio communication." impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="crewcab" />
+    <Price baseprice="500">
+      <Price storeidentifier="merchantoutpost" sold="false" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" sold="false" />
+      <Price storeidentifier="merchantresearch" sold="false" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.15" minavailable="1" />
+      <Price storeidentifier="merchantmine" sold="false" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="ballisticfiber" />
+      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="fpgacircuit" />
+    </Deconstruct>
+    <WifiComponent range="70000.0" LinkToChat="true" MinChatMessageInterval="0.0">
+      <!--RequiredItems items="mobilebattery" type="Contained" /-->
+    </WifiComponent>
+    <Upgrade gameversion="0.18.0.0">
+      <WifiComponent>
+        <RequiredItems items="" />
+      </WifiComponent>
+    </Upgrade>
+    <Sprite name="Captain's Radio Helmet" texture="%ModDir%/Content/Items/RoR Captain Armor/radio_helmet.png" sourcerect="18,15,184,161" depth="0.6" origin="0.5,0.5" scale="0.38" />
+    <Body radius="30" density="50" />
+    <InventoryIcon name="Captain's Radio Helmet Icon" texture="%ModDir%/Content/Items/RoR Captain Armor/radio_helmet.png" sourcerect="224,9,176,243" origin="0.5,0.5" />
+    <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.75" />
+      <sprite name="Radio Helmet Wearable" texture="%ModDir%/Content/Items/RoR Captain Armor/radio_helmet.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.38" hidelimb="true" sourcerect="18,15,184,161" origin="0.65,0.56" hidewearablesoftype="head,hair,moustache,beard,headset,FaceAttachment" />
+      <SkillModifier skillidentifier="helm" skillvalue="15" />
+      <StatusEffect type="OnWearing" target="Character" HideFace="true" UseHullOxygen="true" setvalue="true" disabledeltatime="true" />
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="1000.0" Condition="-0.3" comparison="And" targetslot="0">
+        <Conditional IsDead="false" />
+        <Conditional HullOxygenPercentage="lt 50" />
+        <Conditional InWater="false" />
+        <RequiredItem items="oxygentank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="1000.0" Condition="-0.3" comparison="And" targetslot="0">
+        <Conditional InWater="true" />
+        <RequiredItem items="oxygentank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" Oxygen="-10.0" Condition="-0.5" interval="1" disabledeltatime="true">
+        <Conditional IsDead="false" />
+        <RequiredItem items="weldingfueltank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" Oxygen="-10.0" Condition="-0.5" interval="1" disabledeltatime="true">
+        <Conditional IsDead="false" />
+        <RequiredItem items="incendiumfueltank" type="Contained" />
+        <Affliction identifier="burn" amount="0.05" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="1500.0" Condition="-0.1" comparison="And" targetslot="0">
+        <Conditional IsDead="false" />
+        <Conditional HullOxygenPercentage="lt 50" />
+        <Conditional InWater="false" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="1500.0" Condition="-0.1" comparison="And" targetslot="0">
+        <Conditional InWater="true" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" SpeedMultiplier="1.3" setvalue="true" comparison="And" targetslot="0">
+        <Conditional IsDead="false" />
+        <Conditional HullOxygenPercentage="lt 50" />
+        <Conditional InWater="false" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+    </Wearable>
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="tank">
+      <Containable items="oxygensource,weldingtoolfuel" />
+    </ItemContainer>
+  </Item>
+</Items>

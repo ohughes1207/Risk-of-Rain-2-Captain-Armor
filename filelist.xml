@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Risk of Rain 2 Captain Armor" modversion="1.0.2" corepackage="False" steamworkshopid="2850434792" gameversion="1.0.13.2">
+  <Item file="%ModDir%/Content/Items/RoR Captain Armor/ror_captain_mod.xml" />
+  <Other file="%ModDir%/Content/Items/RoR Captain Armor/radio_helmet.png" />
+</contentpackage>
